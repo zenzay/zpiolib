@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "pigpio"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "zpiolib"
+version = "0.0.1"
+authors = [
+  { name="Zenzay", email="zenzay@gmail.com" },
+]
+description = "A pigpio extenstion"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/zenzay/zpiolib"
+"Bug Tracker" = "https://github.com/zenzay/zpiolib/issues"
