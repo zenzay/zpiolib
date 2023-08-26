@@ -26,8 +26,8 @@ sudo apt install python3-venv
 python3 -m pip install --upgrade pip
 pip3 install build
 
-cd src
+git clone https://github.com/zenzay/zpiolib
+cd zpiolib/src
 python3 -m build
-cd dist
-pip3 install --no-index ./zpiolib-0.0.1-py3-none-any.whl
+pip3 install --no-index ./dist/zpiolib-0.0.1-py3-none-any.whl
 ```
