@@ -17,7 +17,6 @@ sudo apt update
 sudo apt install pigpio -y
 sudo systemctl enable pigpiod.service
 sudo systemctl start pigpiod.service
-pip3 install pigpio
 ```
 
 ## Installing zpiolib
