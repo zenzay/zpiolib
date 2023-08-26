@@ -18,7 +18,6 @@ from ..gpio.i2c_bus import I2C_Bus
 
 class BH1750_Sensor(I2C_Bus):
     def __init__(self, pi, bus=1, address=0x23):
-        self._filter = filter
         self._LUXDELAY = 0.5
         super().__init__(pi, bus, address)
 
