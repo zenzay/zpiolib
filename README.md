@@ -21,7 +21,7 @@ sudo systemctl start pigpiod.service
 
 
 ## Installing zpiolib
-Either download a prebuilt package from Releases or build it yourself.
+Either download a prebuilt package from [Releases](https://github.com/zenzay/zpiolib/releases/tag/v0.01) or build it yourself.
 ```
 pip3 install --no-index zpiolib-0.0.1-py3-none-any.whl
 ```
