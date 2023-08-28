@@ -19,14 +19,21 @@ sudo systemctl enable pigpiod.service
 sudo systemctl start pigpiod.service
 ```
 
+
 ## Installing zpiolib
+Either download a prebuilt package from Releases or build it yourself.
+```
+pip3 install --no-index zpiolib-0.0.1-py3-none-any.whl
+```
+
+## Building zpiolib
 ```
 sudo apt install python3-venv
-python3 -m pip install --upgrade pip
 pip3 install build
-
 git clone https://github.com/zenzay/zpiolib
 cd zpiolib/src
 python3 -m build
-pip3 install --no-index ./dist/zpiolib-0.0.1-py3-none-any.whl
+cd dist
 ```
+You're left in the dist folder, which contains two files.
+The tar.gz file is a source distribution whereas the .whl file is a built distribution.
